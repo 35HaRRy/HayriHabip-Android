@@ -1,0 +1,60 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppBaseTheme" parent="android:Theme.Light"></style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+    </style>
+    
+    <style name="AlertDialogCustom" parent="@android:style/Theme.Dialog" >
+        <item name="android:textColor">@color/orange</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:background">@color/darkBlue</item>
+        <item name="android:padding">5sp</item>
+    </style>    
+    
+    <style name="TabIcons" >
+        <item name="android:background">@drawable/graytoorange</item>
+    </style> 
+    
+    <style name="TexViewStyle" parent="@android:style/TextAppearance.Widget.TextView" >
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">5dip</item>
+    </style>
+    
+    <style name="LableStyle" parent="TexViewStyle" >
+        <item name="android:background">@drawable/whitetoturkuaz</item>
+        <item name="android:textColor">@drawable/graytowhite</item>
+    </style> 
+    
+    <style name="LiteralStyle" parent="TexViewStyle" >
+        <item name="android:background">@drawable/whitetoturkuaz</item>
+        <item name="android:textColor">@drawable/turkuaztowhite</item>
+    </style> 
+    
+    <style name="TextStyle" parent="@android:style/TextAppearance.Widget.EditText" >
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/whitetoturkuaz</item>
+        <item name="android:textColor">@drawable/turkuaztowhite</item>
+        <item name="android:padding">5dip</item>
+    </style> 
+    
+    <style name="ImageButtonStyle" parent="@android:style/Widget.ImageButton" >
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">5dip</item>
+        <item name="android:width">15dip</item>
+        <item name="android:height">15dip</item>
+    </style>
+    
+    <style name="IconStyle" parent="ImageButtonStyle" >
+        <item name="android:background">@drawable/ic_edit</item>
+    </style>
+    
+    <style name="OpenIconStyle" parent="ImageButtonStyle" >
+        <item name="android:background">@drawable/ic_openarrow</item>
+    </style>
+    
+    <style name="CloseIconStyle" parent="ImageButtonStyle" >
+        <item name="android:background">@drawable/ic_closearrow</item>
+    </style>
+
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ControlAttrs">
+       <attr name="text" format="integer" />
+       <attr name="isRequired" format="boolean" />
+       <attr name="validationGroup" format="string" />
+       <attr name="label" format="integer" />
+       <attr name="textRv" format="string" />
+       <attr name="textRegex" format="string" />
+       <attr name="styleId" format="integer" />
+       <attr name="selected" format="boolean" />
+       <attr name="key" format="string" />
+       <attr name="value" format="string" />
+       <attr name="layoutResId" format="integer" />
+       <attr name="validateType" format="enum">
+           <enum name="Text" value="0"/>
+           <enum name="Integer" value="1"/>
+           <enum name="Decimel" value="2"/>
+           <enum name="Email" value="3"/>
+           <enum name="Phone" value="4"/>
+           <enum name="Date" value="5"/>
+           <enum name="DateTime" value="6"/>
+       </attr>
+       <attr name="isThereTabIcons" format="boolean" />
+       <attr name="tabIconTemplateId" format="integer" />
+       <attr name="renderType" format="enum">
+           <enum name="FullRow" value="0"/>
+           <enum name="NoLableNoIcon" value="1"/>
+           <enum name="NoIcon" value="2"/>
+           <enum name="NoLabel" value="3"/>
+       </attr>
+       <attr name="labeltemplateId" format="integer" />
+       <attr name="textTemplateId" format="integer" />
+       <attr name="ddlTemplateId" format="integer" />
+       <attr name="iconTemplateId" format="integer" />
+       <attr name="openIconTemplate" format="integer" />
+       <attr name="closeIconTemplate" format="integer" />
+       <attr name="useTemplate" format="boolean" />
+   </declare-styleable>
+</resources>

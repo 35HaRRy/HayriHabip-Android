@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="SERVERPORT" >6000</integer>  
+    <integer name="CLIENTPORT" >10048</integer>    
+</resources>
